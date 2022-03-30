@@ -1,0 +1,27 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/resonai/vera-android-ibraheem")
+            credentials {
+                username = "ilubbad"
+                password = "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"
+            }
+        }
+
+    }
+}
+rootProject.name = "SampleApp"
+include ':app'
