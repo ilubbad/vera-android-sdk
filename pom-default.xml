@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.resonai.vera</groupId>
   <artifactId>app</artifactId>
-  <version>0.0.4</version>
+  <version>0.0.8</version>
   <packaging>aar</packaging>
   <name> Vera Sdk</name>
   <description>Official repo for Vera Android SDK</description>
