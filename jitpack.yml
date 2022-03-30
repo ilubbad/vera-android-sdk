@@ -1,3 +1,4 @@
 install: 
- - FILE="-Dfile=app-0.0.10.aar" 
- - mvn install:install-file $FILE -DgroupId=com.resonai.vera -DartifactId=app -Dversion=0.0.10 -Dpackaging=arr -DpomFile=pom-default.xml
+ - FILE="-Dfile=app-0.0.10-sources.jar" 
+ - mvn install:install-file $FILE -DgroupId=com.resonai.vera -DartifactId=app -Dversion=0.0.10 -Dpackaging=jar -DgeneratePom=true
+
