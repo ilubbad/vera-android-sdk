@@ -1,3 +1,3 @@
 install: 
- - FILE="-Dfile=app-release.aar" 
+ - FILE="-Dfile=app-release-0.0.15.aar" 
  - mvn install:install-file $FILE -DgroupId=com.resonai.vera -DartifactId=app -Dversion=0.0.15 -Dpackaging=aar -DpomFile=pom-default.xml
